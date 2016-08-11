@@ -1,0 +1,26 @@
+{
+  "name": "caconnector",
+  "version": "1.0.0",
+  "description": "Searches using the content analytics api",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinchesser/caconnector.git"
+  },
+  "author": "Kevin Chesser <kevin.chesser94@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinchesser/caconnector/issues"
+  },
+  "homepage": "https://github.com/kevinchesser/caconnector#readme"
+}
