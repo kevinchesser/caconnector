@@ -1,1 +1,2 @@
-module.exports = require('./casearch')
+module.exports.CASearch = require('./casearch');
+module.exports.Options = require('./options');
