@@ -20,7 +20,7 @@ CASearch.prototype.search = function(callback){
 			return;
 		}	
        var bodyJSON = JSON.parse(body);
-       callback(bodyJSON);
+       callback(null,bodyJSON);
 	});
 }
 
