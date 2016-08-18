@@ -29,5 +29,5 @@ CASearch.prototype.search = function(callback){
 CASearch.prototype._buildURL = function(){ 
     this._url = this._options.getBaseURL() + 'collection=' + this._options.getCollection() + '&output=application/json&pageSize=' + 
         this._options.getPageSize() + '&query=' + encodeURIComponent(this._options.getQuery());
-	console.log('query: ' , this._options.getQuery());
+	console.log('query: ' , this._url);
 }
